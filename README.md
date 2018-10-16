@@ -1,4 +1,4 @@
-# dotSol
+# sol
 
 > Smart contract code snippets.
 

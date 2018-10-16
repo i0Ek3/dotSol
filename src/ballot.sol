@@ -55,7 +55,7 @@ contract Ballot { // voting with delegation
                 sender.delegate = to;
                 Voter storage delegate_ = voters[to];
                 if (delegate_.voted) {
-                        proposal[delegate_.vote].voteCount += sender.weight;
+                        proposals[delegate_.vote].voteCount += sender.weight;
                 } else {
                         delegate_.weight += sender.weight;
                 }
@@ -83,7 +83,7 @@ contract Ballot { // voting with delegation
         function winnerName() public view
                 returns (bytes32 winnerName_)
         {
-                winName_ = proposals[winProposal()].name;
+                winnerName_ = proposals[winProposal()].name;
         }
 }
 

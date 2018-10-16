@@ -22,7 +22,7 @@ More compile detail informations you can visit [here](https://solidity.readthedo
 
 ```Shell
 $ npm install solc
-$ solc targetfile
+$ solc --bin targetfile
 
 ```
 

@@ -9,8 +9,8 @@ No words for code, take it by yourself.
 
 ## Code
 
-- Ballot.sol
--
+- ballot.sol
+- auction.sol
 -
 -
 

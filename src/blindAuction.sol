@@ -67,6 +67,7 @@ contract BlindAuction {
                 for (uint i = 0; i < length; i++) {
                         Bid storage bid = bids[msg.sender][i];
                         (uint value, bool fake, bytes32 secret) = (_values[i], _fake[i], _secret[i]);
+                        // 编译器报错说，原本的keccak256函数只支持一个参数？所以换成下面这个函数了
                         //if (bid.blindedBid != keccak256(value, fake, secret)) {
                         if (bid.blindedBid != abi.encodePacked(value, fake, secret)) {
                                 continue;

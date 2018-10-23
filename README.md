@@ -11,7 +11,7 @@ No words for code, take it by yourself.
 
 - ballot.sol
 - auction.sol
-- auctionBlind.sol
+- blindAuction.sol
 -
 
 

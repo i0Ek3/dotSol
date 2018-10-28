@@ -12,7 +12,7 @@ No words for code, take it by yourself.
 - ballot.sol
 - auction.sol
 - blindAuction.sol
--
+- safeRemotePurchase.sol
 
 
 

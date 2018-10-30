@@ -21,8 +21,8 @@ No words for code, take it by yourself.
 More compile detail informations you can visit [here](https://solidity.readthedocs.io/en/v0.4.25/using-the-compiler.html).
 
 ```Shell
-$ npm install solc
-$ solc --bin targetfile
+$ npm install -g solc
+$ solc --bin filename
 
 ```
 

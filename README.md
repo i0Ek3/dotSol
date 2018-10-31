@@ -33,3 +33,5 @@ $ solc --bin filename
 - [solidity-doc](https://solidity.readthedocs.io/en/v0.4.24/index.html) Official solidity doc.
 - [solc](https://github.com/ethereum/solc-js) Solidity compiler.
 - [remix-ide](https://github.com/ethereum/remix-ide) Smart contract IDE.
+- [https://segmentfault.com/a/1190000014797663](https://segmentfault.com/a/1190000014797663) How to make smart contract.
+
